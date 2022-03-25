@@ -38,7 +38,7 @@ public class InvoiceGeneratorTest {
 
     /***
      * created givenMultipleRides_ReturnInvoiceSummary method to test
-     * actual number of rides and total fare to expected 
+     * actual number of rides and total fare to expected
      */
     @Test
     public void givenMultipleRides_ReturnInvoiceSummary(){
@@ -50,5 +50,9 @@ public class InvoiceGeneratorTest {
         InvoiceSummary fare = invoiceGenerator.calculateFare(rides);
         InvoiceSummary expectedInvoiceSummery = new InvoiceSummary(5, 362);
         Assert.assertEquals(expectedInvoiceSummery, fare);
+    }
+
+    @Test
+    public void name() {
     }
 }
