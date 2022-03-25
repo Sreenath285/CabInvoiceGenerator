@@ -51,8 +51,4 @@ public class InvoiceGeneratorTest {
         InvoiceSummary expectedInvoiceSummery = new InvoiceSummary(5, 362);
         Assert.assertEquals(expectedInvoiceSummery, fare);
     }
-
-    @Test
-    public void name() {
-    }
 }
