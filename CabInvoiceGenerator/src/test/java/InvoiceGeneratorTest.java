@@ -41,7 +41,7 @@ public class InvoiceGeneratorTest {
      * actual number of rides and total fare to expected
      */
     @Test
-    public void givenMultipleRides_ReturnInvoiceSummary(){
+    public void givenMultipleRides_ReturnTotalFare(){
         Ride rides[] = { new Ride(1.1, 1),
                          new Ride(10.0, 5),
                          new Ride(5.0, 6),
